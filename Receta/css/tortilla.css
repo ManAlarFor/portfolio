@@ -7,3 +7,15 @@
 /*                  comentario: trabajo de lenguaje de marcas                     */
 /*                                                                                */
 /**********************************************************************************/    
+
+@font-face {
+    font-family: titulos;
+    src: url(../Fonts/HornswoggledNF.ttf);
+}
+
+body {background-color: #f7f298;
+    margin: 0%; padding: 0%;}
+
+#wrapper {width: 80%;
+        margin: auto;
+        background-color: white;}
