@@ -1,0 +1,77 @@
+/**********************************************************************************/
+/*                                                                                */
+/*                     Hoja de estilo de tortilla.html                            */
+/*                     autor: Manuel Alarcón Fortes                               */
+/*                             version: 1.0                                       */
+/*                      fecha: octubre de 2023                                    */
+/*                  comentario: trabajo de lenguaje de marcas                     */
+/*                                                                                */
+/**********************************************************************************/    
+
+@font-face {
+    font-family: titulos;
+    src: url(../Fonts/HornswoggledNF.ttf);
+}
+
+@font-face {
+    font-family: iconitos;
+    src: url(../Fonts/Counterscraps.otf);
+}
+
+@font-face {
+    font-family: texto;
+    src: url(../Fonts/MATTEHEKFREE.otf);
+}
+
+/*poner SIEMPRE que usemos un layout conplejo */
+/*las medidas de ancho y alto se deben calcular del borde hacia dentro*/
+/*letter-spacing puede estar guay para el titulo de cyberpunk*/
+
+* {box-sizing:border-box;}
+
+h1 {margin:auto;
+    padding: 10px;}
+
+dl {margin: auto;}
+
+#ferran{text-align: right;}
+
+#iconos{font-family: iconitos;
+        text-align: center;}
+
+blockquote {font-size: large;
+            font-style: italic;
+            border-left: 4px solid rgb(246, 18, 18);
+            padding: 10px;
+            background-color: rgb(242, 151, 151);}
+
+
+ul{list-style-image: url(../img/puntos\ de\ san\ jacobo.png);}
+
+body {background-color: #f39877;
+    margin: 0%; padding: 0%;
+    background-image: url(../img/mantel.jpg);
+    background-size: 40%;}
+
+.texto {font-family: texto; 
+    font-size: 1.7em;}
+
+#wrapper {width: 80%;
+        margin: auto;
+        background-color: white;
+        padding: 0%;}
+
+.titulo {font-family:titulos ;
+    text-align:center;}
+
+dt {font-weight: bold;
+    font-variant: small-caps;}
+
+/*Las imagenes hay de distintos tipos:
+Favicon-> icono y se pone en el .html
+Fondo tipo pattern-> cuidado por que puede no contrastar
+Fondo Tipo wallpaper->típico de la hero section, grande, de buena calidad y hay que tener en cuenta cover y size
+Imagen en elementos de lista*/
+
+img{float:right;
+    border-radius: 30px;}
