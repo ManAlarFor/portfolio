@@ -75,4 +75,5 @@ Imagen en elementos de lista*/
 
 img{float:right;
     border-radius: 25px;
-    width:23%}/*width es un 50% del espacio que hay en su bloque contenedor*/
+    width:23%;
+    display: block;}/*width es un 50% del espacio que hay en su bloque contenedor*/
