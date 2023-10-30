@@ -74,4 +74,5 @@ Fondo Tipo wallpaper->típico de la hero section, grande, de buena calidad y hay
 Imagen en elementos de lista*/
 
 img{float:right;
-    border-radius: 30px;}
+    border-radius: 25px;
+    width:23%}/*width es un 50% del espacio que hay en su bloque contenedor*/
