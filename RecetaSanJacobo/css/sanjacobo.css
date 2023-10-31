@@ -32,6 +32,8 @@
 h1 {margin:auto;
     padding: 10px;}
 
+h2 {margin-bottom: 30px;}
+
 dl {margin: auto;}
 
 #ferran{text-align: right;}
@@ -54,7 +56,8 @@ body {background-color: #f39877;
     background-size: 40%;}
 
 .texto {font-family: texto; 
-    font-size: 1.7em;}
+    font-size: 1.7em;
+    }
 
 #wrapper {width: 80%;
         margin: auto;
@@ -76,17 +79,19 @@ Imagen en elementos de lista*/
 img{float:right;
     border-radius: 25px;
     width:30%;
-    position: absolute;
-    right: 11%;
-    display: block;}/*width es un 50% del espacio que hay en su bloque contenedor*/
+    margin-right:2% ;
+    margin-top: 30px;
+    }/*width es un 50% del espacio que hay en su bloque contenedor*/
 
 /******************************RESPONSIVIDAD****************************************/
-/*************Hay que hacer que el wrapper sea 100% en móviler**********************/
+/*************Hay que hacer que el wrapper sea 100% en móviles**********************/
 /******************************Atencion: media query********************************/
 
 @media only screen and (width<700px) {
     #wrapper{width:95%}
-    img{width: 80%;}
+    img{width: 90%;
+        clear:both;
+        margin-bottom: 20px;}
 }
 
 @media only screen and (width<900px) {
