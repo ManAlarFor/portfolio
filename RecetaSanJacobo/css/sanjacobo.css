@@ -86,7 +86,7 @@ img{float:right;
 
 @media only screen and (width<700px) {
     #wrapper{width:95%}
-    img{width: 100%;}
+    img{width: 80%;}
 }
 
 @media only screen and (width<900px) {
