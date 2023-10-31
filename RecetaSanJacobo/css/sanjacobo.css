@@ -75,5 +75,22 @@ Imagen en elementos de lista*/
 
 img{float:right;
     border-radius: 25px;
-    width:23%;
+    width:30%;
+    position: absolute;
+    right: 11%;
     display: block;}/*width es un 50% del espacio que hay en su bloque contenedor*/
+
+/******************************RESPONSIVIDAD****************************************/
+/*************Hay que hacer que el wrapper sea 100% en móviler**********************/
+/******************************Atencion: media query********************************/
+
+@media only screen and (width<700px) {
+    #wrapper{width:95%}
+    img{width: 100%;}
+}
+
+@media only screen and (width<900px) {
+
+    #iconos {font-size:medium;}
+
+}
