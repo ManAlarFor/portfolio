@@ -23,10 +23,6 @@
     src: url(../Fonts/MATTEHEKFREE.otf);
 }
 
-/*poner SIEMPRE que usemos un layout conplejo */
-/*las medidas de ancho y alto se deben calcular del borde hacia dentro*/
-/*letter-spacing puede estar guay para el titulo de cyberpunk*/
-
 * {box-sizing:border-box;}
 
 h1 {margin:auto;
@@ -70,22 +66,12 @@ body {background-color: #f39877;
 dt {font-weight: bold;
     font-variant: small-caps;}
 
-/*Las imagenes hay de distintos tipos:
-Favicon-> icono y se pone en el .html
-Fondo tipo pattern-> cuidado por que puede no contrastar
-Fondo Tipo wallpaper->típico de la hero section, grande, de buena calidad y hay que tener en cuenta cover y size
-Imagen en elementos de lista*/
-
 img{float:right;
     border-radius: 25px;
     width:30%;
     margin-right:2% ;
     margin-top: 30px;
-    }/*width es un 50% del espacio que hay en su bloque contenedor*/
-
-/******************************RESPONSIVIDAD****************************************/
-/*************Hay que hacer que el wrapper sea 100% en móviles**********************/
-/******************************Atencion: media query********************************/
+    }
 
 @media only screen and (width<700px) {
     #wrapper{width:95%}
