@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HalloweenParty</title>
+    <link rel="stylesheet" href="./css/partystyle.css">
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
+    <script src="js/partyjs.js"></script>
+</head>
+
+<body>
+
+    <img src="./img/ghost.gif" alt="" id="ghost">
+    <div id="muajaja" onmouseover="show('ghost')" onmouseout="hide('ghost')"></div>
+    <audio id="risaFantasma">
+        <source src="./sound/boo-mario-64.mp3" type="audio/mp3">
+    </audio>
+
+    <section id="hero"> 
+
+        <img src="./img/spideer.gif" alt="" id="spider">
+        <div id="blackWidow" onmouseover="show('spider')" onmouseout="hide('spider')"></div>
+
+        <nav>
+            <p>.</p>
+        </nav>
+
+        <img src="./img/screamer.gif" alt="" id="niña">
+        <button onclick="show('niña'),sound('grito')" onmouseout="hide('niña')">How to come</button>
+        <audio id="grito">
+            <source src="./sound/five-nights-at-freddys-full-scream-sound_2.mp3" type="audio/mp3">
+        </audio>
+
+        <h1>Halloween Party</h1>
+
+    </section>
+
+    <div id="wrapper">
+
+        <h2>Come and feel what true fear is with uuuuus...</h2>
+
+        <section>
+            <p>You are invited to the SCARIEST and MOST SURPRISING party on the most terrifying night of the year...</p>
+            <p>Please check the "How To Come" button to see were we are celebrating the party...</p>
+            <p>Beware the spiders... Stories tell that they appear when you go over their webs.</p>
+            <h2>MUAHAHAHAHA!</h2>
+        </section>
+
+    </div>
+
+</body>
+</html>
