@@ -28,12 +28,12 @@ body{
     left: 209px;
 }
 
-    #vamp{
+    #vampire{
         position: absolute;
         top: 100px;
         left: 209px;
         width: 350px;
-        display: none;
+        visibility: hidden;
     }
 
 #witch{
@@ -57,7 +57,7 @@ body{
         top: 670px;
         left: 150px;
         width: 100px;
-        display: none;
+        visibility: hidden;
     }
 
 #tomb{
@@ -73,8 +73,9 @@ body{
         top: 420px;
         left: 850px;
         width: 400px;
-        display: none;
+        visibility: hidden;
     }
+
 
 
 /*Todas las animaciones se llaman eventos: de ratón [(ONMOUSEOVER,ONMOUSEOUT),(ONCLICK,ONDOUBLEDCLICK)] de navegación,etc...*/

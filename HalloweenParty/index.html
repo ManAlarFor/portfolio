@@ -12,22 +12,31 @@
 <body>
 
     <img src="./img/ghost.gif" alt="" id="ghost">
-    <div id="muajaja" onmouseover="show('ghost')" onmouseout="hide('ghost')"></div>
+    <div id="muajaja" onmouseover="show('ghost');sound('risaFantasma')" onmouseout="hide('ghost');silence('risaFantasma')"></div>
     <audio id="risaFantasma">
-        <source src="./sound/boo-mario-64.mp3" type="audio/mp3">
+        <source src="./sound/04-sound-effects_-eerie-ghost-voice.mp3" type="audio/mp3">
     </audio>
+
+    <img src="./img/Vampiro.gif" alt="" id="vampiro">
+        <div id="murcielago" onmouseover="show('vampiro');sound('screamer')" onmouseout="hide('vampiro');silence('screamer')"></div>
+        <audio id="screamer">
+            <source src="./sound/vampire-scream-short.mp3">
+        </audio>
 
     <section id="hero"> 
 
         <img src="./img/spideer.gif" alt="" id="spider">
-        <div id="blackWidow" onmouseover="show('spider')" onmouseout="hide('spider')"></div>
+        <div id="blackWidow" onmouseover="show('spider');sound('arañaMoviendose')" onmouseout="hide('spider');silence('arañaMoviendose')"></div>
+        <audio id="arañaMoviendose">
+            <source src="./sound/15-arana-acercandose-creapy-spider-approaching-47020.mp3">
+        </audio>
 
         <nav>
             <p>.</p>
         </nav>
 
         <img src="./img/screamer.gif" alt="" id="niña">
-        <button onclick="show('niña'),sound('grito')" onmouseout="hide('niña')">How to come</button>
+        <button onclick="show('niña');sound('grito')" onmouseout="hide('niña')">How to come</button>
         <audio id="grito">
             <source src="./sound/five-nights-at-freddys-full-scream-sound_2.mp3" type="audio/mp3">
         </audio>

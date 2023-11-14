@@ -10,23 +10,24 @@
 </head>
 
 <body>
-    <!--This exercise is made for fun(not responsive)-->
+
     <div id="scenario">
 
+        <img src="./img/vampiroMeLasPiro.gif" alt="" id="vampire">
         <div id="moon" onmouseover="show('vampire')" onmouseout="hide('vampire')"></div>
-        <img src="./img/vampiroMeLasPiro.gif" alt="" id="vamp">
 
-
-        <div id="door" onclick="show('ghost')"></div>
         <img src="./img/phantom.gif" alt="" id="phantom">
+        <div id="door" onclick="show('phantom')"></div>
 
-        <div id="tomb"></div>
-        <img src="./img/fantasmasEn tumbas.gif" alt="" id="sombras">
+        <img src="./img/fantasmasEnTumbas.gif" alt="" id="sombras">
+        <div id="tomb" onmouseover="show('sombras')" onmouseout="hide('sombras')"></div>
 
-        <div id="witch"></div>
-
+        <div id="witch" onmouseover="sound('risabruja')" onmouseout="silence('risabruja')"></div>
+        <audio id="risabruja">
+            <source src="./sound/risaDeBruja.mp3" type="audio/mp3">
+        </audio>
+        
     </div>
-
 
 </body>
 </html>

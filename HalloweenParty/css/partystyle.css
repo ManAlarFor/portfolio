@@ -87,7 +87,7 @@ h2{
     position: absolute;
     width: 330px;
     height: 60px;
-    top:1125px;
+    top:1200px;
     left: 574px;
 }
 
@@ -123,5 +123,21 @@ nav{
         top:92px;
         left: 726px;
         width: 150px;
+        visibility: hidden;
+    }
+
+#murcielago{
+    position: absolute;
+    width: 106px;
+    height: 60px;
+    top:823px;
+    left: 780px;
+}
+
+    #vampiro{
+        position: absolute;
+        top:700px;
+        left: 493px;
+        width: 400px;
         visibility: hidden;
     }
