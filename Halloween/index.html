@@ -14,19 +14,37 @@
     <div id="scenario">
 
         <img src="./img/vampiroMeLasPiro.gif" alt="" id="vampire">
-        <div id="moon" onmouseover="show('vampire')" onmouseout="hide('vampire')"></div>
+        <div id="moon" onmouseover="show('vampire');sound('sustico')" onmouseout="hide('vampire')"></div>
+        <audio id="sustico">
+            <source src="./sound/hhrtthetujrykiryu55_wcDvVbs.mp3">
+        </audio>
 
         <img src="./img/phantom.gif" alt="" id="phantom">
-        <div id="door" onclick="show('phantom')"></div>
+        <div id="door" onclick="show('phantom');sound('boo')"></div>
+        <audio id="boo">
+            <source src="./sound/boo-mario-64.mp3">
+        </audio>
 
         <img src="./img/fantasmasEnTumbas.gif" alt="" id="sombras">
-        <div id="tomb" onmouseover="show('sombras')" onmouseout="hide('sombras')"></div>
+        <div id="tomb" onmouseover="show('sombras');sound('float')" onmouseout="hide('sombras')"></div>
+        <audio id="float">
+            <source src="./sound/summon.mp3">
+        </audio>
 
         <div id="witch" onmouseover="sound('risabruja')" onmouseout="silence('risabruja')"></div>
         <audio id="risabruja">
             <source src="./sound/risaDeBruja.mp3" type="audio/mp3">
         </audio>
         
+        <audio controls id="control">
+            <source src="./sound/onlymp3.to - Ghost House Super Mario 3D World OST-P8hJqrK9mAQ-192k-1700481224.mp3">
+        </audio>
+
+        <p id="textoCementerio">Beware the cementory...</p>
+        <p id="textoLuna">Usually disguise hide as bats to watch the moon</p>
+        <p id="toctoc">Knock knock! Who's thereee...</p>
+        <p id="recom">Use headphones and play the music for a better experience</p>
+
     </div>
 
 </body>

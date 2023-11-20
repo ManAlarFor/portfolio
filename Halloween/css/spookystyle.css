@@ -8,6 +8,11 @@
 /*                                                                       */
 /*************************************************************************/
 
+@font-face {
+    font-family: spookytext;
+    src: url(../font/Lycanthrope.ttf);
+}
+
 body{
     background-color: black;
 }
@@ -76,6 +81,76 @@ body{
         visibility: hidden;
     }
 
+#recom {
+    position: relative;
+    font-family: spookytext;
+    opacity: 0;
+    font-size: 1em;
+    top: 660px;
+    left: 470px;
+    animation-name: recom;
+    animation-duration: 30s;
+}
 
+#textoCementerio {
+    position: relative;
+    font-family: spookytext;
+    opacity: 0;
+    color: #F4C674;
+    font-size: 2.5em;
+    top: 750px;
+    left: 850px;
+    animation-name: sangre;
+    animation-duration: 100s;
+}
 
-/*Todas las animaciones se llaman eventos: de ratón [(ONMOUSEOVER,ONMOUSEOUT),(ONCLICK,ONDOUBLEDCLICK)] de navegación,etc...*/
+#textoLuna {
+    position: relative;
+    font-family: spookytext;
+    opacity: 0;
+    color: #F4C674;
+    font-size: 1.75em;
+    top: -150px;
+    left: 150px;
+    animation-name: sangre;
+    animation-duration: 100s;
+}
+
+#toctoc {
+    position: relative;
+    font-family: spookytext;
+    opacity: 0;
+    color: #F4C674;
+    font-size: 1.75em;
+    top: 650px;
+    left: 130px;
+    animation-name: sangre;
+    animation-duration: 100s;
+}
+
+@keyframes sangre {
+    0%   {opacity: 0;
+        color: #F4C674;}
+    20%  {opacity: 1;
+        color: red;}
+    60%{opacity: 1;
+        color: red;}
+    100% {opacity: 0;
+        color: #F4C674;}
+}
+
+@keyframes recom {
+    0%   {opacity: 1;
+        color: #F4C674;}
+    60%{opacity: 1;
+        color: #F4C674;}
+    100% {opacity: 0;
+        color: #F4C674;}
+}
+
+#control{
+    position: relative;
+    top: 900px;
+    left: 500px;
+    width: 300px;
+}
